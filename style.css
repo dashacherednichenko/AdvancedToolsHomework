@@ -96,8 +96,13 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.primary-link:hover {
+.primary-link:hover, .contact-link:hover {
   color: white;
+  text-decoration: underline;
+}
+.about-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 @media (max-width: 576px) {
   h1 {
